@@ -1,0 +1,18 @@
+.spinner {
+  width: 9px;
+  height: 9px;
+  margin: 0 5px;
+  border-radius: 50%;
+  border: 2px solid;
+  border-color: rgb(60, 101, 189) transparent rgb(60, 101, 189) transparent;
+  animation: dual-ring-spin 1.2s linear infinite;
+}
+
+@keyframes dual-ring-spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
