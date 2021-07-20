@@ -2,16 +2,16 @@ function StatsTable({ statsSet }) {
   return (
       statsSet.length ?
       (<table className="stats-table">
-        <thead>
-          <tr className="stats-table__headers">
-            <th className="stats-table__header">
+        <thead className="stats-table__table-head">
+          <tr className="stats-table__row stats-table__headers">
+            <th className="stats-table__header stats-row__text">
               Текст
             </th>
-            <th className="stats-table__header">
-              Количество слов
+            <th className="stats-table__header stats-row__words-count">
+              <span className="hidden-sm">Количество</span> слов
             </th>
-            <th className="stats-table__header">
-              Количество гласных
+            <th className="stats-table__header stats-row__vowels-count">
+              <span className="hidden-sm">Количество</span> гласных
             </th>
           </tr>
         </thead>

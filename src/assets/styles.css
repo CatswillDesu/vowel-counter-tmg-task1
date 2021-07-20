@@ -72,3 +72,45 @@
   display: block;
   margin-top: 5px;
 }
+
+@media screen and (max-width: 600px) {
+  .hidden-sm {
+    display: none;
+  }
+
+  .container {
+    padding: 0 20px;
+  } 
+
+  .identifiers-form {
+    flex-wrap: wrap;
+    margin-top: 25px;
+  }
+
+  .identifiers-form__label {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .stats-table__row {
+    display: flex;
+  }
+
+  .stats-item,
+  .stats-table__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 1;
+    text-transform: capitalize;
+  }
+
+  .stats-row__text {
+    width: 70%;
+  }
+
+  .stats-row__words-count,
+  .stats-row__vowels-count {
+    width: 15%;
+  }
+}
