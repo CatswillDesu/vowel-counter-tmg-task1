@@ -12,9 +12,9 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
-    "start": "react-scripts start --env.API_URL=http://tmgwebtest.azurewebsites.net/api --env.TMG_API_KEY=0J/RgNC40LLQtdGC0LjQutC4IQ==",
-    "build": "react-scripts build --env.API_URL=http://tmgwebtest.azurewebsites.net/api --env.TMG_API_KEY=0J/RgNC40LLQtdGC0LjQutC4IQ==",
-    "test": "react-scripts test --env.API_URL=http://tmgwebtest.azurewebsites.net/api --env.TMG_API_KEY=0J/RgNC40LLQtdGC0LjQutC4IQ==",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
